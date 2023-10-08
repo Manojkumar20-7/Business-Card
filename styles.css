@@ -1,0 +1,84 @@
+body{
+    position: relative;
+    left: 25%;
+    text-align: center;
+    margin-top:8%;
+    font-family: sans-serif;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card{
+    /* border: 2px solid; */
+    position: absolute;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2fe;
+}
+
+.card1,.card2,.card3{
+    position: relative;
+    border: 2px solid;
+    height: 400px;
+    border-radius: 5px;
+    text-align: center;
+    display: grid;
+    padding: 10px 20px;
+
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+span{
+    position: relative;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: grid;
+    padding: 5px;
+    width: 75%;
+    left: 10%;
+}
+
+button{
+    width: 75%;
+    position: relative;
+    left: 10%;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.plan{
+    margin: 10px;
+    padding: 10px;
+}
+
+.card1,.card3{
+    background-color: white;
+}
+
+.card1 button,.card3 button{
+    background-color: rgb(174, 174, 253);
+}
+
+.card2{
+    background-color: rgb(174, 174, 253);
+    height: 420px;
+    transform: translateY(-10px);
+    z-index: 2;
+}
+
+.card2 button{
+    background-color: white;
+}
